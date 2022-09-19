@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  /* wrapper */
+  .wrapper{
+    width:90%;
+    min-height: 100vh;
+    margin: auto;
+    z-index: 5;
+  }
+ .navbar-behaviour{
+    position: sticky;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px ;
+
+ }
+
+ .nav-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .nav-header> div{
+  margin-right: 3rem;
+ }
+ .handler{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+
+
+ /* special-header */
+ .special-header{
+  background:#000;
+  color:#FFF;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+.special-table{
+  width: 60%;
+  margin: auto;
+}
+
+ .row{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.class-view{
+  color: black;
+  background: white;
+  width: 30rem;
+  text-align: left;
+  padding: 2rem;
+}
+
+.special-help{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter{
+  background-color: black;
+  color: #FFF;
+  text-align: center;
+}
+
+
+footer{
+  background-color: antiquewhite;
+}
+
+.footer{
+  width:90%;
+  margin: auto;
+}
+
+.top-footer{
+  display: flex;
+  justify-content: space-around;
+}
+.social-links{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bottom-footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.caption{
+  text-align: center;
+}
+
+.hr{
+  background-color: black;
+  color: #000;
+}
+  /* Work on the font */
+
+  /* Outline the headers  */
+
+  /* oUTLINE THE CARDS  */
